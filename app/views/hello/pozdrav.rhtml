@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title> Prvý controller a prvá action </title>
+		<body>
+			<h1> rails </h1>
+							
+			<br>
+					ak nieco vidim tak to je dobre
+			<br>
+			<br>
+			Connroller -> Action -> View
+			<br><br><br>
+		
+		 2+3+ 500 = <%= 2 + 3 +500 %> 
+		<br>
+				Aktualny cas je teraz : <%= Time.now %>
+		<br>
+		<% 3.times do %>
+		<br> toto sa zobrazi 3 x
+		<%end %>	
+		<br>
+		Aktualny cas ziskany z conttroler hello, akcia pozdrav, hodnota Aktualny cas
+		<br>
+		<%= @aktualny_cas %>
+		
+		<br><br>
+		Toto je priklad ako sa zobrazuju tzv citlive znaky , treba pouzit ruby funckiu h ("") 
+		<br>
+		<%= h("<%= h('Ako sa zobrazi<toto?") %>') %>
+		<br>
+		 <%= h("Ako sa zobrazi<toto?") %>
+
+
+		</body>
+			
+			
+				
+	</head>
+</html>
