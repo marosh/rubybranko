@@ -1,5 +1,6 @@
-#Thu May 14 14:28:00 CEST 2009
+#Thu May 14 14:30:19 CEST 2009
 useQuickDiffPrefPage=true
+proposalOrderMigrated=true
 tabWidthPropagated=true
 content_assist_proposals_background=216,208,200
 org.eclipse.jdt.ui.javadoclocations.migrated=true
@@ -11,3 +12,4 @@ spelling_locale_initialized=true
 eclipse.preferences.version=1
 content_assist_proposals_foreground=0,0,0
 fontPropagated=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.templateProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
