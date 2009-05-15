@@ -1,13 +1,21 @@
 set :application, "rubybranko"
-set :repository, "git://github.com:marosh/rubybranko.git"
+set :repository, "git://github.com/marosh/rubybranko.git"
+
+#set :repository, "git://git@github.com:marosh/rubybranko.git"
 set :scm, "git"
+set :user, "rubybranko"
+set :branch, "master"
+
+#set :password, "rubybranko"
 
 role :web, "server3.railshosting.cz"
 role :app, "server3.railshosting.cz"
 role :db,  "server3.railshosting.cz", :primary => true
 
 set :deploy_to, "/home/rubybranko/app/"
-set :user, "rubybranko"
+
+
+
 
 set :use_sudo, false
 
