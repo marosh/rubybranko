@@ -56,7 +56,7 @@ Rails::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :session_key => '_web1_session',
-    :secret      => '24349abb270e33f0409029ecab6f1055c57ee7f65d084ca754943fc78ddd9733521d9285422a57a12aeb0514222bd966bafc72483acf86771322b861b9ffcf44'
+    :secret      => 'e91999dfb9a2019e0ee03f3c52d1175a0d0f63f9b785ea68d2451c8c18b89c9bb045cdc0819d195f2a6d9e938d8ac87be958c807e9ee78c2851ea1254501d01d'
   }
 
   # Use the database for sessions instead of the cookie-based default,
