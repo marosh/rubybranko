@@ -4,7 +4,7 @@ set :repository, "git://github.com/marosh/rubybranko.git"
 #set :repository, "git://git@github.com:marosh/rubybranko.git"
 set :scm, "git"
 set :user, "rubybranko"
-set :branch, "master"
+set :branch, "web1branch"
 
 #set :password, "rubybranko"
 
