@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="11" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="62" y="92">
 <fastViewData fastViewLocation="1024"/>
@@ -18,6 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -29,18 +30,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="application.rb" partName="application.rb" path="C:/GIT_REP/web1/app/controllers/application.rb" title="application.rb" tooltip="web1/app/controllers/application.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web1/app/controllers/application.rb"/>
-<editorState selectionLength="0" selectionOffset="721"/>
-</editor>
 <editor activePart="true" focus="true" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="deploy.rb" partName="deploy.rb" path="C:/GIT_REP/web1/config/deploy.rb" title="deploy.rb" tooltip="web1/config/deploy.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/web1/config/deploy.rb"/>
-<editorState selectionLength="0" selectionOffset="297"/>
+<editorState selectionLength="0" selectionOffset="190"/>
 </editor>
 </editors>
 <views>
@@ -67,8 +63,8 @@
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 <view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -327,13 +323,12 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/web1/app/controllers/application.rb"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" path="/web1/config/deploy.rb"/>
 </editors>
-<item historyLabel="application.rb" index="0">
-<position info="not_deleted" x="160" y="21"/>
+<item historyLabel="deploy.rb" index="0">
+<position/>
 </item>
-<item active="true" historyLabel="deploy.rb" index="1">
+<item active="true" historyLabel="deploy.rb" index="0">
 <position/>
 </item>
 </navigationHistory>
@@ -355,6 +350,9 @@
 <mruList>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="deploy.rb" tooltip="web1/config/deploy.rb">
 <persistable path="/web1/config/deploy.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name=".project" tooltip="C:\GIT_REP\.project">
+<persistable uri="file:/C:/GIT_REP/.project"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.ruby.ui.editor.RubyEditor" name="application.rb" tooltip="web1/app/controllers/application.rb">
 <persistable path="/web1/app/controllers/application.rb"/>
